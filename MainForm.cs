@@ -12,7 +12,7 @@ namespace FastFileSearcher
     public partial class MainForm : Form
     {
         private CancellationTokenSource _cancellationTokenSource = new CancellationTokenSource(); // Инициализация токена отмены
-        private const string CurrentVersion = "1.0.1"; // Текущая версия приложения
+        private const string CurrentVersion = "1.0.2"; // Текущая версия приложения
         private const string UpdateUrl = "https://github.com/AlexanderCarver/fastfilesearcher/releases/latest/download/FastFileSearcher.zip"; 
 
         public MainForm()
